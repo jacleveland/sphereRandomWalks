@@ -161,20 +161,3 @@ plt.xticks([0,2,4,6,8,10,12,14,16,18,20])
 file_name = 'msdhist' + str(n_random_walks) + '.png'
 plt.savefig(file_name)
 plt.show()
-
-
-'''
-fig = plt.figure()
-ax = fig.add_subplot(111,projection='3d')
-x = []
-y = []
-z = []
-for entry in a_walk:
-    x.append(entry[0])
-    y.append(entry[1])
-    z.append(entry[2])
-ax.scatter(x,y,z,c='r',marker='o')
-#plt.show()
-
-plt.savefig('sphereWalk12_7.png')
-'''
